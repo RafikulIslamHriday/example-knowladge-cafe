@@ -1,0 +1,19 @@
+.navber{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+border-bottom: 2px solid rgba(17, 17, 17, 0.15);
+width: 80%;
+margin: auto;
+}
+.navber img{
+    width: 80px ;
+    height: 80px ;
+    border-radius: 50%;
+     
+}
+.navber h2{
+    width: 800;
+}
+ 

@@ -1,0 +1,51 @@
+[
+    {
+        "id":"blog1",
+        "coverImg":"./img/cover4.avif",
+        "persionImg":"./img/person4.avif",
+        "title":"How to get your first job as a self-taught programmer",
+        "name":"Mr. Raju",
+        "date":"Mar 15 (2 Days ago)",
+        "timeText":"15 min read",
+        "hasTag":"#beginners  #programming",
+        "quantity":1,
+        "time": 15
+        
+    },
+    {
+        "id":"blog2",
+        "coverImg": "./img/cover3.avif",
+        "persionImg":"./img/person3.avif",
+        "title":"Things you should know before learning JavaScript Frameworks",
+        "name":"Mina Mostofa",
+        "date":"Mar 13 (4 Days ago)",
+        "hasTag":"#beginners   #programming",
+        "timeText":"13 min read",
+        "quantity":1,
+        "time":13
+    },
+    {
+        "id":"blog3",
+        "coverImg":"./img/cover1.avif",
+        "persionImg": "./img/person2.avif",
+        "name":"Mrs. Setara",
+        "title":"Things you should know before learning Css Frameworks",
+        "timeText":"5 min read",
+        "date":"Mar 12 (6 Days ago)",
+        "hasTag":"#beginners  #programming",
+        "time":5,
+        "quantity":1
+    },
+    {
+        "id":"blog4",
+        "coverImg":"./img/cover2.avif",
+        "persionImg":"./img/person1.avif",
+        "title":"This Is What Makes You A Good Programmer",
+        "name":"Mr. Akash",
+        "date":"Mar 11 (1 Week ago)",
+        "timeText":"12 min read",
+        "hasTag":"#beginners  #programming",
+        "time":12,
+        "quantity":1
+    }
+]
