@@ -4,7 +4,7 @@ justify-content: space-between;
 align-items: center;
 padding: 10px 20px;
 border-bottom: 2px solid rgba(17, 17, 17, 0.15);
-width: 80%;
+width: 90%;
 margin: auto;
 }
 .navber img{
@@ -16,4 +16,29 @@ margin: auto;
 .navber h2{
     width: 800;
 }
+
+@media only screen and (min-width: 600px) {
+    .navber{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        border-bottom: 2px solid rgba(17, 17, 17, 0.15);
+        width: 100%;
+        margin: auto;
+        }
+}
+
+@media only screen and (min-width: 768px) {
+    .navber{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        border-bottom: 2px solid rgba(17, 17, 17, 0.15);
+        width: 80%;
+        margin: auto;
+        }
+}
+
  

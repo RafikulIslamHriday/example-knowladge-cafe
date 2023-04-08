@@ -2,12 +2,14 @@ import React from 'react';
 import "./blog.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faBookmark} from '@fortawesome/free-solid-svg-icons'
-
+ 
 
 const Blog = (props) => {
-    const {name,id, coverImg,persionImg, date,timeText, title ,hasTag,time,quantity}= props.blog
+    const {name, coverImg,persionImg, date,timeText, title ,hasTag,time }= props.blog
     const handelReadTime = props.handelReadTime
     const handleBookMark = props.handleBookMark
+     
+     
     
     
  
@@ -30,9 +32,9 @@ const Blog = (props) => {
                                 <p>{date}</p>
                             </div>
                         </div>
-                        <div className="time-text d-flex gap-2">
+                        <div className="time-text d-flex gap-3 align-items-center ">
                             <p>{timeText}</p>
-                            <FontAwesomeIcon  onClick={()=>handleBookMark(id,quantity)}  icon= {faBookmark} /> 
+                            <FontAwesomeIcon  icon= {faBookmark}  onClick={() => handleBookMark(props.blog)}  /> 
                         </div>
                     </div>
                     <h2 className='title'>{title}</h2>
